@@ -3,5 +3,11 @@
     "discord.js": "^14.17.3",
     "discord.js-selfbot-v13": "^3.5.1",
     "dotenv": "^16.4.7"
+  },
+  "scripts": {
+    "start": "concurrently \"node selfbot.js\" \"node repostbot.js\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
   }
 }
